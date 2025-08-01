@@ -25,3 +25,26 @@ WanderSync is an Android application designed to streamline collaborative travel
 - Applied Observer and Strategy design patterns to support live filtering of 100+ entries.
 - Led end-to-end implementation of the collaborative Logistics screen, supporting dining and hotel reservation input with edit/view capabilities.
 
+## 🚀 How to Run Locally
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/sritha8/WanderSync-App.git
+   cd WanderSync-App
+
+2. Open in Android Studio
+- Launch Android Studio
+- Click "Open" and select the WanderSync-App project folder
+
+3. Build the Project
+- Wait for Gradle sync to complete
+- Install any missing SDKs or dependencies if prompted
+
+4. Set up Firebase (optional but recommended)
+- Create a Firebase project at firebase.google.com
+- Download the google-services.json file and place it in the app/ directory
+- Make sure Firebase is configured for Authentication, Firestore, and Storage (if used)
+
+5. Run the App
+- Choose an emulator or a connected Android device
+- Click the green Run button in Android Studio
