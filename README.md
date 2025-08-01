@@ -32,19 +32,19 @@ WanderSync is an Android application designed to streamline collaborative travel
    git clone https://github.com/sritha8/WanderSync-App.git
    cd WanderSync-App
 
-2. Open in Android Studio
+2. **Open in Android Studio**
 - Launch Android Studio
 - Click "Open" and select the WanderSync-App project folder
 
-3. Build the Project
+3. **Build the Project**
 - Wait for Gradle sync to complete
 - Install any missing SDKs or dependencies if prompted
 
-4. Set up Firebase (optional but recommended)
+4. **Set up Firebase** (optional but recommended)
 - Create a Firebase project at firebase.google.com
 - Download the google-services.json file and place it in the app/ directory
 - Make sure Firebase is configured for Authentication, Firestore, and Storage (if used)
 
-5. Run the App
+5. **Run the App**
 - Choose an emulator or a connected Android device
 - Click the green Run button in Android Studio
